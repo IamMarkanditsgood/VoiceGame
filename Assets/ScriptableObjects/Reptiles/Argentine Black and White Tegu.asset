@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ddd2b6fbdf2c8154894335bb93dbbd62, type: 3}
+  m_Name: Argentine Black and White Tegu
+  m_EditorClassIdentifier: 
+  category: 2
+  name: Argentine Black and White Tegu
+  description: Found in South America, omnivore.
+  image: {fileID: 21300000, guid: bb45a9226f294354d922c21e976d6e22, type: 3}
+  namedImage: {fileID: 21300000, guid: 5e6fc86a865704348af6c0b4b951d8a2, type: 3}

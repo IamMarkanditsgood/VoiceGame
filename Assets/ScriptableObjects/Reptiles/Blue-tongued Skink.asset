@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ddd2b6fbdf2c8154894335bb93dbbd62, type: 3}
+  m_Name: Blue-tongued Skink
+  m_EditorClassIdentifier: 
+  category: 2
+  name: Blue-tongued Skink
+  description: Found in Australia and Indonesia, omnivore.
+  image: {fileID: 21300000, guid: 443ad6512bc098343bf60928aa126822, type: 3}
+  namedImage: {fileID: 21300000, guid: 749ab389252be4a44b6ccc61234978bf, type: 3}

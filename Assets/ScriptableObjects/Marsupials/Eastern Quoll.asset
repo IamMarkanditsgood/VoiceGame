@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ddd2b6fbdf2c8154894335bb93dbbd62, type: 3}
+  m_Name: Eastern Quoll
+  m_EditorClassIdentifier: 
+  category: 3
+  name: Eastern Quoll
+  description: Found in Australia, carnivore.
+  image: {fileID: 21300000, guid: 959bc279ec41aaa49bc2bc1f211eefdb, type: 3}
+  namedImage: {fileID: 21300000, guid: 4f28708cbbdfea34eb0a87c8f3986a64, type: 3}
