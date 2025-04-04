@@ -965,7 +965,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: d2c8c7bfe4de0874f82644f4754d0e97, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 97ed9a87b581eaa46aa35393ab510930, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1503,8 +1503,8 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 623138231}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.14739843, y: 0.47969747}
-  m_AnchorMax: {x: 0.85148257, y: 0.69137275}
+  m_AnchorMin: {x: 0.14795792, y: 0.4314469}
+  m_AnchorMax: {x: 0.8520421, y: 0.6431222}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -1528,8 +1528,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: You managed to name [number of guessed countries] countries and scored
-    [number of points] points!
+  m_text: "You guessed {guessedCount} out of 197 animals. Don\u2019t be discouraged
+    \u2013 every animal you guess brings you closer to perfection."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: fb06a2f11e9a19346a659092e0a2b86b, type: 2}
   m_sharedMaterial: {fileID: 4904660340891609820, guid: fb06a2f11e9a19346a659092e0a2b86b, type: 2}
@@ -1556,7 +1556,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 53.73
+  m_fontSize: 51.45
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -3198,7 +3198,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 9d362e658057b2b44ba1b7966ff81aef, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 0370998c66200f045967a838be5135d7, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -3947,7 +3947,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.13854589, y: 0.041325644}
   m_AnchorMax: {x: 0.8603351, y: 0.15122823}
-  m_AnchoredPosition: {x: 0, y: -0.000061035156}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2138637254

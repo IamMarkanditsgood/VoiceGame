@@ -133,7 +133,7 @@ public class GameManager : MonoBehaviour
 
                 int newScore = score * 10;
                 _resultScore.text = newScore.ToString();
-                _resultWords.text = $"You managed to name {score} animals and scored {newScore} points!";
+                _resultWords.text = $"You guessed {score} out of 197 animals. Don’t be discouraged – every animal you guess brings you closer to perfection.";
                 newScore += PlayerPrefs.GetInt("Score");
                 PlayerPrefs.SetInt("Score", newScore);
 
