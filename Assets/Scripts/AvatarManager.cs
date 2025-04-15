@@ -8,7 +8,6 @@ public class AvatarManager : MonoBehaviour
 {
     [SerializeField] private RawImage _avatar;
 
-
     [SerializeField] private Texture2D _basicAvatar;
 
     private int maxSize = 1000;
@@ -21,12 +20,10 @@ public class AvatarManager : MonoBehaviour
         {
             string path = PlayerPrefs.GetString("AvatarPath");
             _avatar.texture = NativeGallery.LoadImageAtPath(path, maxSize);
-
         }
         else
         {
             _avatar.texture = _basicAvatar;
-
         }
     }
 
@@ -47,12 +44,12 @@ public class AvatarManager : MonoBehaviour
                     Debug.Log("Couldn't load texture from " + path);
                     return;
                 }
-
-                PlayerPrefs.SetString("AvatarPath", _path);
                 _avatar.texture = _texture;
+                PlayerPrefs.SetString("AvatarPath", _path);
             }
         }, "Select an image", "image/*");
 
         Debug.Log("Permission result: " + permission);
     }
+
 }
