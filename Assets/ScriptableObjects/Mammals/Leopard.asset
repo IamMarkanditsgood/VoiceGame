@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ddd2b6fbdf2c8154894335bb93dbbd62, type: 3}
+  m_Name: Leopard
+  m_EditorClassIdentifier: 
+  category: 0
+  name: 'Leopard '
+  description: Found in Africa and Asia, carnivore.
+  image: {fileID: 21300000, guid: fee34465d4b151e4cad4a650f2587c71, type: 3}
+  namedImage: {fileID: 21300000, guid: 9fadde0934c6c5146bbd1f5c4cbe7e9a, type: 3}
