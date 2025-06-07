@@ -1,7 +1,8 @@
 ﻿public enum Category
 {
-    Mammals,
-    Amphibians,
-    Reptiles,
-    Marsupials,
+    Africa,
+    America,
+    Asia,
+    Europe,
+    Oceania,
 }
