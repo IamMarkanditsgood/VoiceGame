@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ddd2b6fbdf2c8154894335bb93dbbd62, type: 3}
+  m_Name: Kuwait
+  m_EditorClassIdentifier: 
+  category: 2
+  name: Kuwait
+  description: "Holds 10% of the world\u2019s oil reserves."
+  image: {fileID: 21300000, guid: b19208d9c15463046a398f035a49f64d, type: 3}
+  namedImage: {fileID: 21300000, guid: 9334ab75f5037384c942f69167661f53, type: 3}

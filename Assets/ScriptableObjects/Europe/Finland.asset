@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ddd2b6fbdf2c8154894335bb93dbbd62, type: 3}
+  m_Name: Finland
+  m_EditorClassIdentifier: 
+  category: 3
+  name: Finland
+  description: Known as the "Land of a Thousand Lakes" (actually, over 187,000).
+  image: {fileID: 21300000, guid: 0a399c727fee1334b965f9203f8cc635, type: 3}
+  namedImage: {fileID: 21300000, guid: 4579e3c4521c66a44b06875e849ad765, type: 3}

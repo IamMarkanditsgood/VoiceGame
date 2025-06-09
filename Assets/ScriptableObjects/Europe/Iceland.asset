@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ddd2b6fbdf2c8154894335bb93dbbd62, type: 3}
+  m_Name: Iceland
+  m_EditorClassIdentifier: 
+  category: 3
+  name: Iceland
+  description: No mosquitoes live here!
+  image: {fileID: 21300000, guid: 317a1c28136f4b946a464f56555f2ff4, type: 3}
+  namedImage: {fileID: 21300000, guid: 852a788f396faa34e99e2f079aecbaa3, type: 3}

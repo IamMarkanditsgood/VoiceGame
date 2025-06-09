@@ -10,6 +10,11 @@ using Whisper.Samples;
 
 public class GameManager : MonoBehaviour
 {
+
+    public AudioClip correct;
+    public AudioClip error;
+    public AudioSource  audioSource;
+  
     public static GameManager Instance;
     [SerializeField] private GameObject _animalPrefab;
     [SerializeField] private AnimalConfig[] _animals;
@@ -101,6 +106,10 @@ public class GameManager : MonoBehaviour
     {
         if(isCorrectAnswer)
         {
+            if (PlayerPrefs.GetInt("Sounds") == 1)
+            {
+                audioSource.PlayOneShot(correct);
+            }
             score++;
             _scoreText.text = $"{score}/{_animals.Length}";
             
@@ -124,6 +133,10 @@ public class GameManager : MonoBehaviour
             if (PlayerPrefs.GetInt("Vibration") == 1)
             {
                 Handheld.Vibrate();
+            }
+            if (PlayerPrefs.GetInt("Sounds") == 1)
+            {
+                audioSource.PlayOneShot(error);
             }
             health--;
             _healthImage[health].sprite = _hitHealth;

@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ddd2b6fbdf2c8154894335bb93dbbd62, type: 3}
+  m_Name: Nicaragua
+  m_EditorClassIdentifier: 
+  category: 1
+  name: Nicaragua
+  description: Lake Nicaragua has freshwater sharks.
+  image: {fileID: 21300000, guid: 3bb1f20f0a0e62b4f9148a27277d117b, type: 3}
+  namedImage: {fileID: 21300000, guid: 618ed19adaa9e4542b1c3b1d17a3638c, type: 3}

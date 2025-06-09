@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ddd2b6fbdf2c8154894335bb93dbbd62, type: 3}
+  m_Name: Kosovo
+  m_EditorClassIdentifier: 
+  category: 3
+  name: Kosovo
+  description: "Europe\u2019s youngest country, established in 2008"
+  image: {fileID: 21300000, guid: 83217f2358b0ca44eb7a800077108036, type: 3}
+  namedImage: {fileID: 21300000, guid: cb4e51ae25bbea24ea7f1d63dd13fd46, type: 3}

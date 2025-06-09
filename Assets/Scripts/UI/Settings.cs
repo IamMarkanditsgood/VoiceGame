@@ -13,16 +13,20 @@ public class Settings : MonoBehaviour
     [SerializeField] private Button _close;
     [SerializeField] private Button _avatar;
     [SerializeField] private Button _vibration;
+    [SerializeField] private Button _sounds;
 
     [SerializeField] private TMP_InputField _name;
 
-    [SerializeField] private Sprite _off;
-    [SerializeField] private Sprite _on;
+    [SerializeField] private Sprite _offV;
+    [SerializeField] private Sprite _onV;
+    [SerializeField] private Sprite _offS;
+    [SerializeField] private Sprite _onS;
 
     private void Start()
     {
         _close.onClick.AddListener(Close);
         _vibration.onClick.AddListener(Vibration);
+        _sounds.onClick.AddListener(Sounds);
         _avatar.onClick.AddListener(_avatarManager.PickFromGallery);
 
     }
@@ -31,6 +35,7 @@ public class Settings : MonoBehaviour
     {
         _close.onClick.RemoveListener(Close);
         _vibration.onClick.RemoveListener(Vibration);
+        _sounds.onClick.AddListener(Sounds);
         _avatar.onClick.RemoveListener(_avatarManager.PickFromGallery);
     }
 
@@ -43,11 +48,21 @@ public class Settings : MonoBehaviour
         int vibration = PlayerPrefs.GetInt("Vibration");
         if (vibration == 0)
         {
-            _vibration.GetComponent<Image>().sprite = _off;
+            _vibration.GetComponent<Image>().sprite = _offV;
         }
         else
         {
-            _vibration.GetComponent<Image>().sprite = _on;
+            _vibration.GetComponent<Image>().sprite = _onV;
+        }
+
+        int sounds = PlayerPrefs.GetInt("Sounds");
+        if (sounds == 0)
+        {
+            _sounds.GetComponent<Image>().sprite = _offS;
+        }
+        else
+        {
+            _sounds.GetComponent<Image>().sprite = _onS;
         }
     }
 
@@ -63,12 +78,26 @@ public class Settings : MonoBehaviour
         if (vibration == 0)
         {
             PlayerPrefs.SetInt("Vibration",1);
-            _vibration.GetComponent<Image>().sprite = _on;
+            _vibration.GetComponent<Image>().sprite = _onV;
         }
         else
         {
             PlayerPrefs.SetInt("Vibration", 0);
-            _vibration.GetComponent<Image>().sprite = _off;
+            _vibration.GetComponent<Image>().sprite = _offV;
+        }
+    }
+    private void Sounds()
+    {
+        int sounds = PlayerPrefs.GetInt("Sounds");
+        if (sounds == 0)
+        {
+            PlayerPrefs.SetInt("Sounds", 1);
+            _sounds.GetComponent<Image>().sprite = _onS;
+        }
+        else
+        {
+            PlayerPrefs.SetInt("Sounds", 0);
+            _sounds.GetComponent<Image>().sprite = _offS;
         }
     }
 }

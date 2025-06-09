@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ddd2b6fbdf2c8154894335bb93dbbd62, type: 3}
+  m_Name: Benin
+  m_EditorClassIdentifier: 
+  category: 0
+  name: Benin
+  description: ' Birthplace of the voodoo religion.'
+  image: {fileID: 21300000, guid: 99e499af3ef1feb438a6a0b6e15c93b8, type: 3}
+  namedImage: {fileID: 21300000, guid: 5e3de4da68d00a649bd6d9654019b45a, type: 3}

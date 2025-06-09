@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ddd2b6fbdf2c8154894335bb93dbbd62, type: 3}
+  m_Name: Comoros
+  m_EditorClassIdentifier: 
+  category: 0
+  name: Comoros
+  description: Known as the "Perfume Islands."
+  image: {fileID: 21300000, guid: bfd18e5aece1ed743b514e7d5aa06799, type: 3}
+  namedImage: {fileID: 21300000, guid: e99a0a74f3931664e94ae2be850be37d, type: 3}

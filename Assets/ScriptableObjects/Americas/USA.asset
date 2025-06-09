@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ddd2b6fbdf2c8154894335bb93dbbd62, type: 3}
+  m_Name: USA
+  m_EditorClassIdentifier: 
+  category: 1
+  name: USA
+  description: The only country to have walked on the Moon.
+  image: {fileID: 21300000, guid: b65ca16db46fb3c4ead515874bf2c8da, type: 3}
+  namedImage: {fileID: 21300000, guid: 1fa51b05703b15a4eb39a51541ecc717, type: 3}

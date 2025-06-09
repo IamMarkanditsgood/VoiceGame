@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ddd2b6fbdf2c8154894335bb93dbbd62, type: 3}
+  m_Name: Lithuania
+  m_EditorClassIdentifier: 
+  category: 3
+  name: Lithuania
+  description: The first country to declare independence from the Soviet Union.
+  image: {fileID: 21300000, guid: 0a32a30ab5377384783a94723e3394f1, type: 3}
+  namedImage: {fileID: 21300000, guid: bba0d0625c707af4c95ef5abc533c9fa, type: 3}

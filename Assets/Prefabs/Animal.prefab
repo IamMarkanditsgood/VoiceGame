@@ -34,7 +34,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.0116, y: -0.0242}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 2, y: 2}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &3379556679556609837
@@ -206,8 +206,8 @@ Transform:
   m_GameObject: {fileID: 5877257444449071528}
   serializedVersion: 2
   m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: -0.043, y: -0.754, z: 17.03}
-  m_LocalScale: {x: 2, y: 0.15, z: 2}
+  m_LocalPosition: {x: -0.043, y: -0.754, z: 16.9693}
+  m_LocalScale: {x: 2, y: 0.089250006, z: 2}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 6281040587201326402}
@@ -242,7 +242,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 99dd8fe673ea3d447ba48fa33c6c14e5, type: 2}
+  - {fileID: 2100000, guid: 33cdacc236138ed40bbbf340eb618300, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0

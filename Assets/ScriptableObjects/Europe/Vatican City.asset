@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ddd2b6fbdf2c8154894335bb93dbbd62, type: 3}
+  m_Name: Vatican City
+  m_EditorClassIdentifier: 
+  category: 3
+  name: Vatican City
+  description: The only country in the world where the ATM offers instructions in
+    Latin
+  image: {fileID: 21300000, guid: 57cc67efe08613341b063a0e6e880819, type: 3}
+  namedImage: {fileID: 21300000, guid: 5254c7f3a020f554390904a83333d152, type: 3}

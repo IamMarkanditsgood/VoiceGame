@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ddd2b6fbdf2c8154894335bb93dbbd62, type: 3}
+  m_Name: Romania
+  m_EditorClassIdentifier: 
+  category: 3
+  name: Romania
+  description: "Houses the world\u2019s heaviest building, the Palace of Parliament."
+  image: {fileID: 21300000, guid: b6f040dd0a29b424a9d08d05a412b1bc, type: 3}
+  namedImage: {fileID: 21300000, guid: 31b773e8dbd8da9419404615bf1890be, type: 3}
